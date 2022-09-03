@@ -1,0 +1,55 @@
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.buscador-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 50%;
+    width: 30%;
+    flex-direction: column;
+
+}
+.buscador-container ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.buscador-container a{
+    text-decoration: none;
+    color: wheat;
+    margin: 10px 0px 10px 0px;
+}
+.list-group li{
+    display: flex;
+    justify-content: space-between
+}
+.form-container{
+    margin: 50px 0px 50px 0px;
+}
+.form-container h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.fav-button{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+}
+.fav-button img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.fav-button img:hover{
+    border: 2px red solid;
+}
+
+.fav-button img:active{
+    border: 2px black solid;
+}

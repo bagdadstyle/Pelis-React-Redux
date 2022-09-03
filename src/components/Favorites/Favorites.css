@@ -1,0 +1,21 @@
+.details-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fav-container{
+    margin-top: 30px;
+
+}
+.fav-container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.fav-container ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}

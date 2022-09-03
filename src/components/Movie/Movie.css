@@ -1,0 +1,21 @@
+.movie-detail{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.movie-detail h1, h2{
+  margin: 10px 0px 10px 0px;
+}
+.sinopsis{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sinopsis p{
+  margin: 10px 25px 10px 25px;
+  text-align: justify;
+  max-width: 450px;
+}
